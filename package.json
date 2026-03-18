@@ -5,10 +5,8 @@
   "license": "CC0",
   "author": "Stephan Kulla",
   "type": "module",
-  "devDependencies": {
-    "@anthropic-ai/sandbox-runtime": "^0.0.42"
-  },
   "dependencies": {
+    "@anthropic-ai/sandbox-runtime": "^0.0.42",
     "opencode-ai": "^1.2.27"
   }
 }
