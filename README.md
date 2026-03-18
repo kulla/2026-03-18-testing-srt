@@ -2,5 +2,5 @@
 
 ## Setup
 
-1. Clone repo and run `npm install`
-2. Go to one of the directories and run the scripts there
+1. Clone repo and run `npm install`.
+2. Go into one of the directories and run the scripts there.
