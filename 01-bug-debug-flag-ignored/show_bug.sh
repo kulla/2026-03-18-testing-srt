@@ -1,3 +1,3 @@
 #!/bin/sh
 
-srt --debug echo Hello World
+npx srt --debug echo Hello World
