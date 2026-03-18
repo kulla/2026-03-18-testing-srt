@@ -4,5 +4,8 @@
   "description": "Testing @anthropic/sandbox-runtime",
   "license": "CC0",
   "author": "Stephan Kulla",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@anthropic-ai/sandbox-runtime": "^0.0.42"
+  }
 }
