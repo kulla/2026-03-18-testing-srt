@@ -1,0 +1,8 @@
+{
+  "name": "2026-03-18-testing-srt",
+  "version": "1.0.0",
+  "description": "Testing @anthropic/sandbox-runtime",
+  "license": "CC0",
+  "author": "Stephan Kulla",
+  "type": "module"
+}
