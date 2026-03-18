@@ -1,0 +1,16 @@
+{
+  "network": {
+    "allowedDomains": [],
+    "deniedDomains": [],
+    "allowUnixSockets": [],
+    "allowLocalBinding": false
+  },
+  "filesystem": {
+    "denyRead": ["/home"],
+    "allowRead": [],
+    "allowWrite": ["file.txt"],
+    "denyWrite": []
+  },
+  "enableWeakerNetworkIsolation": false,
+  "enableWeakerNestedSandbox": false
+}
