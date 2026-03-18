@@ -1,0 +1,12 @@
+diff --git a/node_modules/@anthropic-ai/sandbox-runtime/dist/cli.js b/node_modules/@anthropic-ai/sandbox-runtime/dist/cli.js
+index 829419e..7412f8e 100755
+--- a/node_modules/@anthropic-ai/sandbox-runtime/dist/cli.js
++++ b/node_modules/@anthropic-ai/sandbox-runtime/dist/cli.js
+@@ -115,6 +115,7 @@ async function main() {
+             logForDebugging(JSON.stringify(SandboxManager.getNetworkRestrictionConfig(), null, 2));
+             // Wrap the command with sandbox restrictions
+             const sandboxedCommand = await SandboxManager.wrapWithSandbox(command);
++            logForDebugging(`Sandboxed command: ${sandboxedCommand}`)
+             // Execute the sandboxed command
+             const child = spawn(sandboxedCommand, {
+                 shell: true,

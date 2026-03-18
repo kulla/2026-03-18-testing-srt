@@ -5,6 +5,9 @@
   "license": "CC0",
   "author": "Stephan Kulla",
   "type": "module",
+  "scripts": {
+    "postinstall": "patch-package"
+  },
   "dependencies": {
     "@anthropic-ai/sandbox-runtime": "^0.0.42"
   },
