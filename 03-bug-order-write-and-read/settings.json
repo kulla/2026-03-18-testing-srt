@@ -7,7 +7,7 @@
   },
   "filesystem": {
     "denyRead": ["/home"],
-    "allowRead": [".."],
+    "allowRead": ["../node_modules"],
     "allowWrite": ["file.txt"],
     "denyWrite": []
   },
