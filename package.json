@@ -6,7 +6,6 @@
   "author": "Stephan Kulla",
   "type": "module",
   "dependencies": {
-    "@anthropic-ai/sandbox-runtime": "^0.0.42",
-    "opencode-ai": "^1.2.27"
+    "@anthropic-ai/sandbox-runtime": "^0.0.42"
   }
 }
