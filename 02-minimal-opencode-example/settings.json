@@ -12,8 +12,8 @@
     "allowLocalBinding": false
   },
   "filesystem": {
-    "denyRead": ["/media", "/mnt", "/opt", "/snap", "/var"],
-    "allowRead": [],
+    "denyRead": ["/home", "/media", "/mnt", "/opt", "/snap", "/var"],
+    "allowRead": ["~/.local/share/asdf"],
     "allowWrite": [
       ".",
       "~/.bun",
