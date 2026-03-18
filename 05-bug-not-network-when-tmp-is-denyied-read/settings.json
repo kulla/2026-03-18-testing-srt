@@ -10,7 +10,5 @@
     "allowRead": [],
     "allowWrite": [],
     "denyWrite": []
-  },
-  "enableWeakerNetworkIsolation": false,
-  "enableWeakerNestedSandbox": false
+  }
 }
