@@ -1,0 +1,16 @@
+{
+  "network": {
+    "allowedDomains": ["de.wikipedia.org"],
+    "deniedDomains": [],
+    "allowUnixSockets": [],
+    "allowLocalBinding": false
+  },
+  "filesystem": {
+    "denyRead": ["/tmp"],
+    "allowRead": [],
+    "allowWrite": [],
+    "denyWrite": []
+  },
+  "enableWeakerNetworkIsolation": false,
+  "enableWeakerNestedSandbox": false
+}
