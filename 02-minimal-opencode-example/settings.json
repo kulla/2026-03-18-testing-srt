@@ -1,0 +1,31 @@
+{
+  "network": {
+    "allowedDomains": [
+      "models.dev",
+      "registry.npmjs.org",
+      "api.openai.com",
+      "github.com",
+      "api.githubcopilot.com"
+    ],
+    "deniedDomains": [],
+    "allowUnixSockets": [],
+    "allowLocalBinding": false
+  },
+  "filesystem": {
+    "denyRead": ["/media", "/mnt", "/opt", "/snap", "/var"],
+    "allowRead": [],
+    "allowWrite": [
+      ".",
+      "~/.bun",
+      "~/.local/share/opencode",
+      "~/.local/share/opentui",
+      "~/.local/state/opencode",
+      "~/.config/opencode",
+      "~/.cache/opencode",
+      "/tmp"
+    ],
+    "denyWrite": []
+  },
+  "enableWeakerNetworkIsolation": false,
+  "enableWeakerNestedSandbox": false
+}
